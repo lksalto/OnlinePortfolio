@@ -13,7 +13,10 @@
     width: 50%;
 }
 .logo{
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     border-style: double;
+}
+header{
+    background-color: #5E7966 ;
 }
