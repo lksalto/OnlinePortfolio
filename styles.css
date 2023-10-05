@@ -8,14 +8,17 @@
 }
 .centeredImg{
     display: block;
-    margin-left: auto;
+    margin-left: zero;
     margin-right: auto;
     width: 50%;
 }
 .logo{
     height: 30px;
     width: 30px;
-    border-style: double;
+    cursor: pointer;
+    padding: 5px 5px;
+
+     outline: none;
 }
 header{
     background-color: #5E7966 ;
