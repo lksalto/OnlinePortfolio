@@ -1,13 +1,19 @@
 .gradient-background {
-    background: linear-gradient(300deg, #00bfff, rgb(115, 115, 221), #3685e0);
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
-    
-}
+  }
 
+html{
+    background-color: rgb(120, 132, 199);
+}
 #title{
     margin: 0px;
-    padding: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh
 }
 
 header{
@@ -23,7 +29,9 @@ header{
     align-items: top;
     align-content: top;
     justify-content: flex-end;
+    align-items: center;
     font-size: 30px;
+
 }
 
 .item-flex-start{
@@ -33,21 +41,49 @@ header{
 .container{
     display: flex;
     flex-direction: column;
-    margin-top:40px;
+    margin:40px 0px;
+    padding: 0% 50px;
+    
 }
 
 h2{
-    font-size: 90px;
+    font-size: 60px;
+    text-align: center;
 }
 h3{
     font-size: 40px;
+    text-align: center;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+    color: #401974;
+}
+
+.txt-alg-l{
+    text-align: left;
+}
+.txt-alg-c{
+    text-align: center;
+}
+.highlight{
+    color: rgba(129, 14, 14, 0.993);
 }
 
 .font-anton{
-    font-family: 'Anton', sans-serif;
-    color: aliceblue;
-    -webkit-text-stroke: rgb(20, 16, 75) 1px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(8, 29, 48);
+    
     letter-spacing: 2px;
+    margin: 0;
+    padding-bottom: 0px; 
+}
+
+.font-open-sans{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(8, 29, 48);
+    
+    letter-spacing: 0px;
     margin: 0;
     padding-bottom: 0px; 
 }
@@ -56,43 +92,200 @@ h3{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
+    height: 100%;
+    
 }
 
 .flexh{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    flex-basis: 10px 10px;
 }
 
 .thumb-flex{
-    height: 200px;
-    width: 100%;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .thumb-flex > a > img{
-    width: 150px;
-    height: 150px;
+    width: 40px;
+    height: 40px;
     position: relative;
     border: 3px solid black;
     border-radius: 50%;
 }
 
+.item-flex-stretch{
+    height: 100%;
+    width: 50%;
+    
+    
+}
+
+.img-transp{
+    height: 300px;
+}
+
 .flex-center{
+    justify-self: center;
     align-self: center;
+}
+.flex-center{
+    justify-self: center;
+    align-self: center;
+}
+.flex-end{
+    align-items: end;
 }
 
 .px-5{
     padding: 0px 20px;
+}
+.py-5{
+    padding: 20px 0px;
+}
+.py-50{
+    padding-top: 50px;
 }
 
 .pm-0{
     margin: 0px;
     padding: 0px;
 }
-.flex-item-bottom{
-    align-self: flex-end;
-    justify-self: right;
+.pl-5{
+    padding-left:5px;
+}
+.pmy-0{
+    padding-top:0px ;
+    padding-bottom: 0px;
+    margin-top:0px ;
+    margin-bottom: 0px;
+}
+.py-0{
+    padding-top:0px ;
+    padding-bottom: 0px;
+}
+.py-1{
+    margin: 3px 0px;
+    padding: 3px 0px;
+}
+.b1{
+    border: solid black 3px;
+}
+.pb-0{
+    padding-bottom: 0px;
 }
 
+.mt-0{
+    margin-top:0;
+}
+.mt-5{
+    margin-top:5px ;
+}
+.mt-50{
+    margin-top: 100px;
+}
+.my-50{
+    margin: 100px 0px;
+}
+.f-g{
+    font-size: 40px;
+}
+.f-m{
+    font-size: 20px;
+}
+.f-mm{
+    font-size: 16px;
+}
+.f-p{
+    font-size: 10px;
+}
+.pb-1{
+    padding-bottom: 3px;
+}
+.pt-10{
+    padding-top: 60px;
+}
+.pt-5{
+    padding-top: 20px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.my-5{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
 
+.grid4{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+.flex-space-between{
+    align-items: flex-end;
+}
+.flex-end{
+    justify-content:end;
+}
+.img-border-curvy{
+    border-radius: 50%;
+}
+.width-25{
+    width: 36%;
+    
+}
+.width-75{
+    width: 55%;
+    
+}
+.img-fit{
+    width: 100%;
+    height: 100%;
+}
+.gap-9{
+    gap: 9px;
+}
+.black-d-h{
+    background-color: black;
+    width: 100%;
+    height: 2px;
+}
+.black-d-v{
+    background-color: black;
+    width: 2px;
+}
+.txt-justify{
+    text-align: justify;
+}
+.txt-gap-0{
+    letter-spacing: 0px
+}
+.p-9px{
+    padding-left: 9px;
+}
+.f-bold{
+    font-weight: bold;
+}
+
+ul{
+    margin-top:5px
+}
+
+.listing{
+    margin-top: 5px;
+    padding-left:5px;
+}
+
+.listing p{
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top:0px;
+    font-size: 16px;
+}

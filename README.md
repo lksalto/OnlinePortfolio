@@ -1,2 +1,2 @@
 # html-resume
-This is a simple resume made only using HTML
+This is a simple resume made only using HTML and CSS
