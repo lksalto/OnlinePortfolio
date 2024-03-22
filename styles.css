@@ -4,9 +4,7 @@
     animation: gradient-animation 18s ease infinite;
   }
 
-html{
-    background-color: rgb(120, 132, 199);
-}
+
 #title{
     margin: 0px;
     padding-bottom: 0px;
@@ -223,7 +221,14 @@ h4{
 .mt-10{
     margin-top: 10px;
 }
-
+.bl-1
+{
+    border-left: solid black 2px;
+}
+.br-1
+{
+    border-right: solid black 2px;
+}
 .grid4{
     display: grid;
     grid-template-columns: 1fr 9fr;
@@ -242,7 +247,7 @@ h4{
     
 }
 .width-75{
-    width: 55%;
+    width: 36%;
     
 }
 .img-fit{
