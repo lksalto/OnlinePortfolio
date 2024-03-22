@@ -2,7 +2,52 @@
     background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
-  }
+}
+
+  .font-alegreya{
+    font-family: 'Alegreya', serif;
+    color: #56000E;
+    
+    letter-spacing: 2px;
+    margin: 0;
+    padding-bottom: 0px; 
+}
+
+.font-open-sans{
+    font-family: 'Open Sans', sans-serif;
+    color: #56000E;
+    
+    letter-spacing: 0px;
+    margin: 0;
+    padding-bottom: 0px; 
+}
+.img-fit{
+    width: 300px;
+    align-self: center;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-color: #dd6577;
+}
+.bg-black
+{
+    background-color: #982640;
+    align-self: right;
+    width: 1%;
+    flex-grow: 1;
+}
+.bg-curriculo{
+    background-color: #f3b6b6;
+}
+.link{
+    background-color: #dd6577;
+    border-radius: 8%;
+    border: dashed black 1px;
+    align-self:left;
+    padding: 3px;
+    color: black;
+    
+}
 
 
 #title{
@@ -68,23 +113,7 @@ h4{
     color: rgba(129, 14, 14, 0.993);
 }
 
-.font-alegreya{
-    font-family: 'Alegreya', serif;
-    color: rgb(8, 29, 48);
-    
-    letter-spacing: 2px;
-    margin: 0;
-    padding-bottom: 0px; 
-}
 
-.font-open-sans{
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(8, 29, 48);
-    
-    letter-spacing: 0px;
-    margin: 0;
-    padding-bottom: 0px; 
-}
 
 .flexv{
     display:flex;
@@ -258,14 +287,7 @@ h4{
     width: 35%;
     
 }
-.img-fit{
-    width: 300px;
-    align-self: center;
-    border-radius: 50%;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    background-color: #dd6577;
-}
+
 .gap-9{
     gap: 9px;
 }
@@ -306,25 +328,7 @@ ul{
     margin-top:0px;
     font-size: 16px;
 }
-.bg-black
-{
-    background-color: rgb(88, 25, 25);
-    align-self: right;
-    width: 1%;
-    flex-grow: 1;
-}
-.bg-curriculo{
-    background-color: #f3b6b6;
-}
-.link{
-    background-color: #dd6577;
-    border-radius: 8%;
-    border: dashed black 1px;
-    align-self:left;
-    padding: 3px;
-    color: black;
-    
-}
+
 
 @media screen and (max-width: 600px){
     .img-fit{
